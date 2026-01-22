@@ -4,11 +4,11 @@
   "version": "0.0.1",
   "type": "module",
   "scripts": {
-    "build": "npx vite build",
+    "build": "node node_modules/vite/bin/vite.js build",
     "dev": "vite"
   },
   "engines": {
-    "node": ">=18"
+  "node": "20.x"
   },
   "dependencies": {
     "@emotion/react": "11.14.0",
